@@ -16,9 +16,22 @@
 	font-display: swap;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
+	/* variable */
+	--border-3: 0.188rem;
+
 	/* font family */
 	--font-family-regular: 'Rubik', sans-serif;
+
+	/* container */
+	--spacing-3.3: 0.813rem;
+	--spacing-5.2: 1.313rem;
+	--spacing-35: 8.75rem;
+	--spacing-55: 14.063rem;
+	--spacing-141: 35.25rem;
+	--spacing-container-home-desktop: 72.313rem;
 
 	/* Color */
 	--color-white: #ffffff;
@@ -105,11 +118,13 @@
 	--text-preset-5-mobile--line-height: 1.5;
 	--text-preset-5-mobile--letter-spacing: 0rem;
 	--text-preset-5-mobile--font-weight: 400;
-	--text-preset-5-mobile--font-style: italic;
 
 	--text-preset-6: 1.25rem;
 	--text-preset-6--line-height: 1.5;
 	--text-preset-6--letter-spacing: 0rem;
 	--text-preset-6--font-weight: 400;
-	--text-preset-6--font-style: italic;
+}
+
+html {
+	@apply bg-grey-50 dark:bg-blue-900;
 }
