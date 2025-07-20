@@ -80,8 +80,7 @@
 			}
 
 			return 'bg-grey-50';
-		})
-
+		});
 
 		isNextQuestion = true;
 	}
@@ -101,8 +100,12 @@
 		if (questionNumber) {
 			examContent = exams[questionNumber[totalQuestion - 1] - 1];
 			examContent.borderColor = [];
+			examContent.bgColor = [];
 		}
+
 	}
+
+	$inspect(totalQuestion, 'totalQuestion');
 </script>
 
 <div
@@ -119,7 +122,10 @@
 			{examContent?.question}
 		</h1>
 		<div class="dark:bg-blue-850 flex h-4 w-full items-center rounded-lg bg-white">
-			<div class="mr-1.5 ml-1.5 h-2 w-{totalQuestion}/10 rounded-lg bg-purple-600 transition-all duration-500 ease-in-out"></div>
+			<div
+				class="mr-1.5 ml-1.5 h-2  rounded-lg bg-purple-600 transition-all duration-300 ease-in-out"
+				style="width:{totalQuestion * 10}%"
+			></div>
 		</div>
 	</div>
 
@@ -133,13 +139,13 @@
 				onclick={() => handleAnswer(option)}
 				class="group dark:bg-blue-850 lg:p-5.2 flex cursor-pointer flex-row items-center gap-4 rounded-xl border-(length:--border-3) {examContent
 					?.borderColor?.[index] ??
-					'dark:border-blue-850 border-white'} bg-white p-4 hover:border-(length:--border-3) hover:border-purple-600 hover:text-white hover:opacity-80 active:border-(length:--border-3) active:border-purple-600 active:opacity-80 md:gap-8"
+					'dark:border-blue-850 border-white'} bg-white p-4 hover:border-(length:--border-3) hover:border-purple-600 hover:text-white hover:opacity-80 md:gap-8"
 			>
 				<div
 					class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md uppercase group-hover:bg-purple-600 {examContent
 						?.borderColor?.[index] == 'border-purple-600'
 						? 'bg-purple-600 text-white'
-						: examContent?.bgColor?.[index] ?? 'bg-grey-50'} md:h-14 md:w-14 md:rounded-xl"
+						: (examContent?.bgColor?.[index] ?? 'bg-grey-50')} md:h-14 md:w-14 md:rounded-xl"
 				>
 					<span class=" text-preset-4-mobile md:text-preset-4">
 						{numberToLetters(index + 1)}
