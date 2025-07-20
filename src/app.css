@@ -28,10 +28,19 @@
 	/* container */
 	--spacing-3.3: 0.813rem;
 	--spacing-5.2: 1.313rem;
+	--spacing-7.5: 1.875rem;
+	--spacing-12.2: 3.063rem;
+	--spacing-13: 3.25rem;
+	--spacing-14.3: 3.625rem;
+	--spacing-21.25: 5.313rem;
 	--spacing-35: 8.75rem;
+	--spacing-46: 11.5rem;
+	--spacing-51: 13.438rem;
 	--spacing-55: 14.063rem;
+	--spacing-112.5: 28.125rem;
 	--spacing-141: 35.25rem;
 	--spacing-container-home-desktop: 72.313rem;
+	--spacing-container-title-quiz-destop: 29.063rem;
 
 	/* Color */
 	--color-white: #ffffff;

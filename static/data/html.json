@@ -1,0 +1,122 @@
+[
+	{
+		"question": "What does HTML stand for?",
+		"options": [
+			"Hyperlinks and Text Markup Language",
+			"Home Tool Markup Language",
+			"Hyper Text Markup Language",
+			"Hyper Tool Markup Language"
+		],
+		"answer": "Hyper Text Markup Language"
+	},
+	{
+		"question": "Which tag is used to create a hyperlink in HTML?",
+		"options": ["<link>", "<a>", "<href>", "<hyperlink>"],
+		"answer": "<a>"
+	},
+	{
+		"question": "What is the correct HTML element for inserting a line break?",
+		"options": ["<break>", "<br>", "<lb>", "<newline>"],
+		"answer": "<br>"
+	},
+	{
+		"question": "Which HTML tag is used to define an image?",
+		"options": ["<image>", "<img>", "<pic>", "<src>"],
+		"answer": "<img>"
+	},
+	{
+		"question": "Which attribute is used to provide the URL of the image in the <img> tag?",
+		"options": ["link", "href", "src", "url"],
+		"answer": "src"
+	},
+	{
+		"question": "How do you make a text bold in HTML?",
+		"options": ["<bold>", "<strong>", "<bld>", "<em>"],
+		"answer": "<strong>"
+	},
+	{
+		"question": "How can you make a numbered list in HTML?",
+		"options": ["<ul>", "<ol>", "<dl>", "<li>"],
+		"answer": "<ol>"
+	},
+	{
+		"question": "What is the correct HTML tag for the largest heading?",
+		"options": ["<h6>", "<head>", "<heading>", "<h1>"],
+		"answer": "<h1>"
+	},
+	{
+		"question": "What does the <title> tag do?",
+		"options": [
+			"Defines a table title",
+			"Sets the main heading",
+			"Sets the browser tab title",
+			"Shows the page subtitle"
+		],
+		"answer": "Sets the browser tab title"
+	},
+	{
+		"question": "Which tag is used to create a table row?",
+		"options": ["<tr>", "<td>", "<table>", "<row>"],
+		"answer": "<tr>"
+	},
+	{
+		"question": "How do you write a comment in HTML?",
+		"options": ["// comment", "<!-- comment -->", "# comment", "/* comment */"],
+		"answer": "<!-- comment -->"
+	},
+	{
+		"question": "What is the purpose of the <meta> tag in HTML?",
+		"options": [
+			"Displays metadata on screen",
+			"Embeds media files",
+			"Provides metadata to the browser",
+			"Shows meta images"
+		],
+		"answer": "Provides metadata to the browser"
+	},
+	{
+		"question": "Which tag is used to define a list item?",
+		"options": ["<li>", "<item>", "<list>", "<ul>"],
+		"answer": "<li>"
+	},
+	{
+		"question": "How do you create an email link in HTML?",
+		"options": [
+			"<a href=\"email:someone@example.com\">",
+			"<a href=\"mailto:someone@example.com\">",
+			"<mail>someone@example.com</mail>",
+			"<email>someone@example.com</email>"
+		],
+		"answer": "<a href=\"mailto:someone@example.com\">"
+	},
+	{
+		"question": "Which tag is used to insert a horizontal line?",
+		"options": ["<line>", "<hr>", "<hl>", "<br>"],
+		"answer": "<hr>"
+	},
+	{
+		"question": "Which tag contains the visible part of the HTML document?",
+		"options": ["<html>", "<body>", "<main>", "<section>"],
+		"answer": "<body>"
+	},
+	{
+		"question": "Where is the correct place to put the <title> element?",
+		"options": ["Inside <body>", "Before <html>", "Inside <head>", "After <body>"],
+		"answer": "Inside <head>"
+	},
+	{
+		"question": "Which attribute is used to open a link in a new tab?",
+		"options": ["target=\"_blank\"", "newtab=\"true\"", "open=\"new\"", "blank=\"yes\""],
+		"answer": "target=\"_blank\""
+	},
+	{
+		"question": "What does the <p> tag define?",
+		"options": ["A paragraph", "A picture", "A popup", "A part"],
+		"answer": "A paragraph"
+	},
+	{
+		"question": "Which tag is used to define a checkbox in a form?",
+		"options": ["<check>", "<checkbox>", "<input type=\"checkbox\">", "<form type=\"checkbox\">"],
+		"answer": "<input type=\"checkbox\">"
+	}
+]

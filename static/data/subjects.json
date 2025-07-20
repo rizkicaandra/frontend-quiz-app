@@ -1,0 +1,26 @@
+[
+	{
+		"logo": "/images/icon-html.svg",
+		"name": "HTML",
+		"color": "orange-50",
+		"quiz": "html"
+	},
+	{
+		"logo": "/images/icon-css.svg",
+		"name": "CSS",
+		"color": "green-100",
+		"quiz": "css"
+	},
+	{
+		"logo": "/images/icon-js.svg",
+		"name": "Javascript",
+		"color": "blue-50",
+		"quiz": "javascript"
+	},
+	{
+		"logo": "/images/icon-accessibility.svg",
+		"name": "Accessibility",
+		"color": "purple-100",
+		"quiz": "accessibility"
+	}
+]

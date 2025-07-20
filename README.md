@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rizkicaandra/frontend-quiz-app)
-- Live Site URL: [Live Demo](https://magnificent-tartufo-976891.netlify.app/)
+- Live Site URL: [Live Demo](https://melodic-bombolone-3175b4.netlify.app/)
 
 ## My process
 

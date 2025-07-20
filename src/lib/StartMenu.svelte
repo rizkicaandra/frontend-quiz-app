@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	import Subject from './Subject.svelte';
+
 </script>
 
 <div

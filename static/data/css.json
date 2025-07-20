@@ -1,0 +1,122 @@
+[
+	{
+		"question": "What does CSS stand for?",
+		"options": [
+			"Computer Style Sheets",
+			"Creative Style Sheets",
+			"Cascading Style Sheets",
+			"Colorful Style Sheets"
+		],
+		"answer": "Cascading Style Sheets"
+	},
+	{
+		"question": "Which HTML tag is used to link an external CSS file?",
+		"options": ["<style>", "<script>", "<link>", "<css>"],
+		"answer": "<link>"
+	},
+	{
+		"question": "Which CSS property is used to change the text color?",
+		"options": ["font-color", "text-color", "color", "background-color"],
+		"answer": "color"
+	},
+	{
+		"question": "Which property is used to change the background color?",
+		"options": ["color", "bgcolor", "background-color", "text-background"],
+		"answer": "background-color"
+	},
+	{
+		"question": "Which symbol is used for class selectors in CSS?",
+		"options": ["#", ".", ":", "*"],
+		"answer": "."
+	},
+	{
+		"question": "Which symbol is used for ID selectors in CSS?",
+		"options": ["#", ".", "@", "%"],
+		"answer": "#"
+	},
+	{
+		"question": "What is the correct CSS syntax to make all `<p>` elements bold?",
+		"options": [
+			"p {font-weight: bold;}",
+			"p {text-weight: bold;}",
+			"p {style: bold;}",
+			"<p style='bold'>"
+		],
+		"answer": "p {font-weight: bold;}"
+	},
+	{
+		"question": "Which CSS property controls the size of text?",
+		"options": ["font-style", "text-size", "font-size", "text-style"],
+		"answer": "font-size"
+	},
+	{
+		"question": "How do you add a comment in CSS?",
+		"options": ["// comment", "# comment", "/* comment */", "<!-- comment -->"],
+		"answer": "/* comment */"
+	},
+	{
+		"question": "Which property is used to center text horizontally?",
+		"options": [
+			"text-align: center;",
+			"align-text: center;",
+			"text-style: center;",
+			"horizontal-align: center;"
+		],
+		"answer": "text-align: center;"
+	},
+	{
+		"question": "Which property is used to add space inside an element’s border?",
+		"options": ["margin", "spacing", "padding", "border-spacing"],
+		"answer": "padding"
+	},
+	{
+		"question": "Which property is used to add space outside an element?",
+		"options": ["padding", "margin", "space", "border"],
+		"answer": "margin"
+	},
+	{
+		"question": "What does the `display: none;` property do?",
+		"options": [
+			"Hides the element",
+			"Fades the element",
+			"Disables the element",
+			"Changes the display to block"
+		],
+		"answer": "Hides the element"
+	},
+	{
+		"question": "Which CSS property sets the space between lines of text?",
+		"options": ["letter-spacing", "text-spacing", "line-height", "line-spacing"],
+		"answer": "line-height"
+	},
+	{
+		"question": "Which property is used to change the font of an element?",
+		"options": ["font-weight", "font-style", "font-family", "text-style"],
+		"answer": "font-family"
+	},
+	{
+		"question": "What is the default position value in CSS?",
+		"options": ["fixed", "relative", "absolute", "static"],
+		"answer": "static"
+	},
+	{
+		"question": "Which CSS property allows you to add rounded corners?",
+		"options": ["corner-radius", "round-border", "border-radius", "radius"],
+		"answer": "border-radius"
+	},
+	{
+		"question": "Which value of `position` places the element relative to the browser window?",
+		"options": ["static", "relative", "fixed", "absolute"],
+		"answer": "fixed"
+	},
+	{
+		"question": "Which unit is relative to the font-size of the element?",
+		"options": ["px", "%", "em", "vh"],
+		"answer": "em"
+	},
+	{
+		"question": "How do you apply a style to all `<h1>` elements on a page?",
+		"options": ["#h1", ".h1", "h1", "*h1"],
+		"answer": "h1"
+	}
+]

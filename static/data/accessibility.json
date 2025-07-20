@@ -1,0 +1,152 @@
+[
+	{
+		"question": "What does web accessibility mean?",
+		"options": [
+			"Designing websites only for mobile devices",
+			"Making websites colorful and engaging",
+			"Making websites usable by people with disabilities",
+			"Optimizing websites for faster loading"
+		],
+		"answer": "Making websites usable by people with disabilities"
+	},
+	{
+		"question": "Which HTML attribute provides alternative text for images?",
+		"options": ["title", "src", "alt", "label"],
+		"answer": "alt"
+	},
+	{
+		"question": "Why is alt text important?",
+		"options": [
+			"It improves image quality",
+			"It displays image size",
+			"It helps screen readers describe images",
+			"It makes images clickable"
+		],
+		"answer": "It helps screen readers describe images"
+	},
+	{
+		"question": "Which HTML tag is used to define a navigation region?",
+		"options": ["<nav>", "<menu>", "<section>", "<header>"],
+		"answer": "<nav>"
+	},
+	{
+		"question": "What does a screen reader do?",
+		"options": [
+			"Magnifies content on screen",
+			"Reads content aloud for users",
+			"Displays images faster",
+			"Disables pop-ups"
+		],
+		"answer": "Reads content aloud for users"
+	},
+	{
+		"question": "Which input should be used for selecting one option from multiple choices?",
+		"options": ["Checkbox", "Text", "Radio button", "Textarea"],
+		"answer": "Radio button"
+	},
+	{
+		"question": "Which HTML element is best for grouping a label and input together?",
+		"options": ["<div>", "<label>", "<fieldset>", "<section>"],
+		"answer": "<fieldset>"
+	},
+	{
+		"question": "Which landmark role is used to define the main content of a page?",
+		"options": ["banner", "navigation", "main", "content"],
+		"answer": "main"
+	},
+	{
+		"question": "What is the purpose of using headings (<h1> to <h6>) properly?",
+		"options": [
+			"To style text",
+			"To create navigation menus",
+			"To provide structure and hierarchy",
+			"To make text bigger"
+		],
+		"answer": "To provide structure and hierarchy"
+	},
+	{
+		"question": "Which ARIA attribute is used to describe the current state of a widget?",
+		"options": ["aria-role", "aria-label", "aria-state", "aria-pressed"],
+		"answer": "aria-pressed"
+	},
+	{
+		"question": "What does WCAG stand for?",
+		"options": [
+			"Web Content Accessibility Guidelines",
+			"Web Code Accessibility Group",
+			"Website Compatibility and Guidelines",
+			"Wide Content Access Guide"
+		],
+		"answer": "Web Content Accessibility Guidelines"
+	},
+	{
+		"question": "Which of the following helps improve keyboard accessibility?",
+		"options": [
+			"Using hover effects",
+			"Using tabindex",
+			"Using mouse events only",
+			"Disabling focus outlines"
+		],
+		"answer": "Using tabindex"
+	},
+	{
+		"question": "Why should you avoid using color alone to convey information?",
+		"options": [
+			"Colors load slowly",
+			"Colors don't work on mobile",
+			"Color is hard to style",
+			"Colorblind users may miss the information"
+		],
+		"answer": "Colorblind users may miss the information"
+	},
+	{
+		"question": "Which HTML tag is best for captions or summaries of tables?",
+		"options": ["<summary>", "<caption>", "<label>", "<desc>"],
+		"answer": "<caption>"
+	},
+	{
+		"question": "What is the purpose of using semantic HTML?",
+		"options": [
+			"To make code shorter",
+			"To reduce page size",
+			"To provide meaning and structure to content",
+			"To improve animations"
+		],
+		"answer": "To provide meaning and structure to content"
+	},
+	{
+		"question": "What does the `lang` attribute do in HTML?",
+		"options": [
+			"Defines layout direction",
+			"Specifies the programming language",
+			"Sets the spoken language for screen readers",
+			"Changes the font"
+		],
+		"answer": "Sets the spoken language for screen readers"
+	},
+	{
+		"question": "What should all form inputs have for accessibility?",
+		"options": ["A unique color", "A label", "A tooltip", "An icon"],
+		"answer": "A label"
+	},
+	{
+		"question": "Which device might benefit from accessible websites?",
+		"options": ["Smartphones", "Tablets", "Screen readers", "All of the above"],
+		"answer": "All of the above"
+	},
+	{
+		"question": "What is 'focus' in web accessibility?",
+		"options": [
+			"Highlighting important text",
+			"Zooming into content",
+			"The element currently selected by keyboard navigation",
+			"Mouse pointer location"
+		],
+		"answer": "The element currently selected by keyboard navigation"
+	},
+	{
+		"question": "Which HTML element is used to associate a label with a form control?",
+		"options": ["<span>", "<for>", "<label>", "<inputlabel>"],
+		"answer": "<label>"
+	}
+]

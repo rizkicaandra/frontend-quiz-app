@@ -1,38 +1,61 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { onMount } from 'svelte';
+	import type { SubjectInterface } from './interface/subject';
+	import { getLocalStorage, setLocalStorage } from './utils';
+	import { goto } from '$app/navigation';
 
 	let isDark = $state(false);
-	let isTitle = $state(false);
+	let quizTopic = $state(page.params.slug);
+	let subject: SubjectInterface | null = $state(null);
 
 	onMount(() => {
-		const theme = localStorage.getItem('theme');
+		const theme = getLocalStorage<string>('theme');
+		subject = getLocalStorage('subject');
 
 		if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 			document.documentElement.classList.add('dark');
 			isDark = true;
+		}
+
+		if (page.url.pathname === '/quiz/result' && subject) {
+			quizTopic = subject?.quiz;
+		} else if (quizTopic !== subject?.quiz || !subject) {
+			goto('/');
 		}
 	});
 
 	function toggleTheme() {
 		if (isDark) {
 			document.documentElement.classList.remove('dark');
-			localStorage.setItem('theme', 'light');
+			setLocalStorage('theme', 'light', 0);
 			isDark = false;
 		} else {
 			document.documentElement.classList.add('dark');
-			localStorage.setItem('theme', 'dark');
+			setLocalStorage('theme', 'dark', 0);
 			isDark = true;
 		}
 	}
 </script>
 
 <div
-	class="flex items-center {isTitle
+	class="flex items-center {quizTopic
 		? 'justify-between'
-		: 'justify-end'} lg:max-w-container-home-desktop px-6 py-4 md:px-16 md:py-11 lg:m-auto lg:px-0 lg:py-24"
+		: 'justify-end'} lg:max-w-container-home-desktop px-6 py-4 md:px-16 md:py-11 lg:m-auto lg:px-0 lg:py-21.25"
 >
-	<div></div>
-	<div class="flex h-10 flex-row items-center gap-2 md:gap-4 lg:h-7">
+	<div class="flex flex-row items-center justify-center gap-4">
+		{#if quizTopic}
+			<div
+				class="flex h-10 w-10 items-center justify-center rounded-md md:h-14 md:w-14 lg:h-14 lg:w-14 bg-{subject?.color} "
+			>
+				<img class="h-8 w-8 md:h-10 md:w-10" src={subject?.logo} alt="{subject?.name}-logo" />
+			</div>
+			<h2 class="text-preset-4-mobile md:text-preset-4 text-blue-900 dark:text-white">
+				{subject?.name}
+			</h2>
+		{/if}
+	</div>
+	<div class="flex h-10 flex-row items-center gap-2 md:gap-4 lg:h-14">
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
 			><path
 				fill="#626C7F"
